@@ -1,0 +1,31 @@
+.footer{
+    background-color:#333;
+    text-align:center;
+    padding:4px 0;
+    flex-shrink:0;
+    margin-top:20px;
+}
+
+.footer-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+
+    color:#f0eeec;          /* mesma cor */
+    font-size:0.75rem;      /* mesmo tamanho do fcopy */
+    font-family:'Barlow',sans-serif;
+    font-weight:400;
+    line-height:1.6;
+}
+
+.footer-content span,
+.footer-content a{
+    color:#f0eeec;
+    font-size:0.75rem;
+}
+
+.footer-content img{
+    width:50px;
+    margin-right:10px;
+}
